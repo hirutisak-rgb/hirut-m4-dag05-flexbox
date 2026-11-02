@@ -13,9 +13,14 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   background-color: #5b3a29;
   color: #ffffff;
   padding: 16px 24px;
+
 }
 
 header h1 {
