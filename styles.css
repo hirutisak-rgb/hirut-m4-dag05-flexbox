@@ -51,6 +51,8 @@ section {
 }
 
 article {
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   border: 1px solid #e3d5c3;
   border-radius: 8px;
@@ -125,6 +127,7 @@ h3 {
 }
 
 .pris {
+  margin-top: auto;
   font-weight: 700;
   color: #8c1010;
 }
